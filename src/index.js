@@ -6,7 +6,8 @@ const verify = require("./middlewares/verify");
 const productRouter = require("./routes/product.route");
 const userRouter = require("./routes/user.route");
 const authRouter = require("./routes/auth.route");
-const errorHandler = require("./routes/errorHandler");
+const errorHandler = require("./middlewares/errorHandler");
+
 
 
 
